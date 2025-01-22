@@ -1,0 +1,87 @@
+/* General Styling */
+/* .WeatherApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #1a2a6c, #b21f1f, #fdbb2d);
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .searchSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .infoSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .placeholderText {
+    color: #555;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+  }
+   */
+
+   /* General Styling */
+.weatherAppContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .weatherContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px; /* Compact width for app-like feel */
+    width: 500%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  .searchSection {
+    width: 100%;
+  }
+  
+  .infoSection {
+    width: 100%;
+  }
+  
+  .placeholderText {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
